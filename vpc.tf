@@ -1,5 +1,5 @@
 resource aws_vpc "Gaurav" {
-  source = "https://github.com/ZhiLiangSun/terraform-aws-vpc"
+  source  = "app.terraform.io/LIAM-training/vpc/aws"
   cidr_block = var.address_space
 
   tags = {
